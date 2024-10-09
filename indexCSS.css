@@ -4,5 +4,6 @@ body {
 
 h1 {
     text-align: center;
-    text-size-adjust: 100px;
+    font-size: large;
+    font-family: Helvetica;
 }
