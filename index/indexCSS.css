@@ -22,7 +22,7 @@ body {
             width: 75;
             height: auto;
             text-align: right;
-            justify-content: right;
+            justify-content: end;
         }
 
     .navbarlinks { /* Navigation bar links optimisation*/
