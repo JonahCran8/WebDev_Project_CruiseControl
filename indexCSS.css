@@ -23,7 +23,7 @@ h1 {
         }
 
 h3 { 
-    text-align: right;
+    text-align: left;
     font-size: 25px;
 
 }
@@ -33,7 +33,7 @@ h3 {
     }
 
 
-        .container.box {
+        .container .box {
             border: 2px solid rgb(99, 108, 69);;
             padding: 20px;
             width: 600px;
