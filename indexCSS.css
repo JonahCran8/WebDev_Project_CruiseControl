@@ -34,16 +34,16 @@ h3 {
 
 
         .container .box {
-            border: 2px solid rgb(99, 108, 69);;
+            border: 2px solid rgb(112, 139, 147);
             padding: 20px;
             width: 600px;
             height: auto;
-            background-color: rgb(246, 251, 151);
-            margin-right: 50px;
+            background-color: rgb(196, 241, 255);
+            margin-left: 20px;
         }
 
         .container img {
-            margin-left: 100px;
+            margin-left: 20px;
             width: 300px;
             height: auto;
         }
