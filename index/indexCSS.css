@@ -34,16 +34,7 @@ body {
 
         .navbarlinks li {
             margin: 0 10px;
-            position: relative;
-        }
-
-        .navbarlinks li::after {
-            content: "";
-            position: absolute;
             right: -10px; 
-            top: 50%;
-            transform: translateY(-50%);
-            height: 80%;
             border-right: 1px solid rgb(153, 172,181);
         }
 
