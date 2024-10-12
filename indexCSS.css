@@ -23,7 +23,16 @@ nav {
 h3 {
     text-align: right;
     font-size: 25px;
-    
+
+}
+
+.box {
+    border: 2px solid black;
+    padding: 20px;
+    width: 200px;
+    height: auto;
+    background-color: lightgray;
+    text-align: left;
 }
 
 img {
