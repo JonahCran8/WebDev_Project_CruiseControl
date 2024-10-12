@@ -8,8 +8,8 @@ body {
         display: flex;
         align-items: center;
         background-color: rgb(200, 224, 235);
-        padding: 10px 10px;
-        justify-content: space-between;
+        padding: 5px;
+        justify-content: start;
     }
 
         .logo { /* Logo size */
@@ -38,7 +38,7 @@ body {
             }
     
                 .navbarlinks a:hover {
-                    background-color: rgb(150, 224, 235);  /* Link hover effect */
+                    background-color: rgb(113, 127, 133);  /* Link hover effect */
                     border-radius: 5px;
                 }
 
