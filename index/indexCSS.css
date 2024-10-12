@@ -65,13 +65,11 @@ h3 {
     }
 
         .container_e36 h3{ 
-            text-align: left;
             font-size: 25px;
         
         }
 
         .container_e36 h4 {
-            text-align: left;
             font-size: 20px;
         }
 
@@ -80,7 +78,7 @@ h3 {
                 padding: 20px;
                 width: 600px;
                 height: auto;
-                background-color: rgb(196, 241, 255);
+                background-color: rgb(200, 224, 235);
                 margin-left: 20px;
             }
 
