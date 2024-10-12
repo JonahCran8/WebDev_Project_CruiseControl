@@ -27,6 +27,11 @@ body {
 
         .navbarlinks li {
             margin: 0 10px;  /* Space between links */
+            border-right: 1px rgb(153, 172, 181);
+        }
+
+        .navbarlinks li:last-child {
+            border-right: none;
         }
     
             .navbarlinks a {
