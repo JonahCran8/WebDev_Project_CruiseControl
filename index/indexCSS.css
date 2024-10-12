@@ -21,8 +21,8 @@ body {
         .slogan {
             width: 75;
             height: auto;
+            margin-left: auto;
             text-align: right;
-            justify-content: end;
         }
 
     .navbarlinks { /* Navigation bar links optimisation*/
