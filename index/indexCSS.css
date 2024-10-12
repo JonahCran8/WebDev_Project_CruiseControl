@@ -65,6 +65,7 @@ h1 { /*Gives the correct properties to the "Find the car for you" slogan beneath
     width: 800px;
     border-radius: 5px;
     padding: 15px;
+    align-items: vertical;
 }
 
     .main_e36 h3{ 
