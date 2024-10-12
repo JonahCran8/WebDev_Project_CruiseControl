@@ -64,18 +64,28 @@ h3 {
         align-items: center;
     }
 
-
-        .container_e36 .boxe36 {
-            border: 2px solid rgb(112, 139, 147);
-            padding: 20px;
-            width: 600px;
-            height: auto;
-            background-color: rgb(196, 241, 255);
-            margin-left: 20px;
+        .container_e36 h3{ 
+            text-align: left;
+            font-size: 25px;
+        
         }
 
-        .container_e36 img {
-            margin-left: 20px;
-            width: 300px;
-            height: auto;
+        .container_e36 h4 {
+            text-align: left;
+            font-size: 20px;
         }
+
+            .container_e36 .boxe36 {
+                border: 2px solid rgb(112, 139, 147);
+                padding: 20px;
+                width: 600px;
+                height: auto;
+                background-color: rgb(196, 241, 255);
+                margin-left: 20px;
+            }
+
+            .container_e36 img {
+                margin-left: 20px;
+                width: 300px;
+                height: auto;
+            }
