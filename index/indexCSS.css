@@ -18,12 +18,6 @@ body {
             height: auto;
             margin-right: 10px;
         }
-        .slogan { 
-            width: 75;
-            height: auto;
-            margin-left: auto;
-            text-align: right;
-        }
 
     .navbarlinks { /* Navigation bar links optimisation*/
         list-style: none;
@@ -58,6 +52,11 @@ body {
                 }
 
 /* End of navigation bar */
+
+
+.slogan {
+    
+}
 
 
 h1 { /*Gives the correct properties to the "Find the car for you" slogan beneath the main heading*/
