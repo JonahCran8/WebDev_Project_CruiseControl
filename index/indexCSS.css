@@ -9,7 +9,7 @@ body {
         align-items: center;
         background-color: rgb(200, 224, 235);
         justify-content: start;
-        border-radius: 20px;
+        border-radius: 5px;
         padding: 0px 15px;
     }
 
@@ -59,41 +59,40 @@ h1 { /*Gives the correct properties to the "Find the car for you" slogan beneath
         margin-top: 20px;
     }
         
-
-h3 { 
-    text-align: left;
-    font-size: 25px;
-
+.main_e36 {
+    border: 2px rgb(112, 139, 147);
+    width: 800px;
+    border-radius: 5px;
 }
-    .container_e36 {
-        display: flex;
-        align-items: center;
+
+    .main_e36 h3{ 
+        font-size: 25px;
+        margin-left: 20px;
     }
 
-        .container_e36 h3{ 
-            font-size: 25px;
-            margin-right: 20px;
-        
-        }
-
-        .container_e36 h4 {
+        .main_e36 h4 {
             font-size: 20px;
             margin-left: 20px;
         }
+        .container_e36 {
+            display: flex;
+            align-items: center;
+        }
 
-            .container_e36 .boxe36 {
-                border: 2px solid rgb(112, 139, 147);
-                padding: 20px;
-                width: 600px;
-                height: auto;
-                background-color: rgb(200, 224, 235);
-                margin-left: 20px;
-            }
+                .container_e36 .boxe36 {
+                    border: 2px solid rgb(112, 139, 147);
+                    padding: 20px;
+                    width: 600px;
+                    height: auto;
+                    background-color: rgb(200, 224, 235);
+                    margin-left: 20px;
+                    border-radius: 15px;
+                }
 
-            .container_e36 img {
-                margin-left: 20px;
-                width: 300px;
-                height: auto;
-                border: 5px rgb(112, 139, 147);
-                border-radius: 15px;
-            }
+                .container_e36 img {
+                    margin-left: 20px;
+                    width: 300px;
+                    height: auto;
+                    border: 5px rgb(112, 139, 147);
+                    border-radius: 15px;
+                }
