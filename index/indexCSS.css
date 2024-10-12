@@ -2,7 +2,7 @@ body {
     background-color:white
 }
 
-.navbarlinks { /* Navigation bar optimisation */
+.navbar { /* Navigation bar optimisation */
     display: flex;
     align-items: center;
     background-color: rgb(192, 224, 235);
