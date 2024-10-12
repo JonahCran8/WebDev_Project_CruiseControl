@@ -61,9 +61,10 @@ h1 { /*Gives the correct properties to the "Find the car for you" slogan beneath
         
 .main_e36 {
     display: flex;
-    border: 2px rgb(112, 139, 147);
+    border: 2px solid rgb(112, 139, 147);
     width: 800px;
     border-radius: 5px;
+    padding: 15px;
 }
 
     .main_e36 h3{ 
