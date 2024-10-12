@@ -4,11 +4,10 @@ body {
 
 /*Gives the "Cruise Control" heading the correct size font and alignment*/
 
-h1 {
-    text-align: center;
-    font-size: 80px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 0%;
+#logo {
+    text-align: left;
+    width: 50px;
+    height: auto;
 }
     /*Gives the correct properties to the "Find the car for you" slogan beneath the main heading*/
     h2 {
