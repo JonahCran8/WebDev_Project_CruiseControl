@@ -39,11 +39,11 @@ h3 {
             width: 600px;
             height: auto;
             background-color: rgb(246, 251, 151);
-            margin-left: 50px;
+            margin-right: 50px;
         }
 
         .container img {
-            margin-right: 500px;
+            margin-left: 100px;
             width: 300px;
             height: auto;
         }
