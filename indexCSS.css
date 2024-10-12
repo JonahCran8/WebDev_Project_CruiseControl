@@ -34,11 +34,11 @@ h3 {
 
 
         .box {
-            border: 2px solid black;
+            border: 2px solid rgb(88, 123, 134);;
             padding: 20px;
             width: 600px;
             height: auto;
-            background-color: lightgray;
+            background-color: rgb(185, 238, 255);
         }
 
         img {
