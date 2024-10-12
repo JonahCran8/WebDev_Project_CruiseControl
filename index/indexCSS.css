@@ -6,11 +6,12 @@ body {
     display: flex;
     align-items: center;
     background-color: rgb(192, 224, 235);
-    padding: 10px;
+    padding: 50px;
+    justify-content: space-between;
 }
 
 .logo { /* Logo size */
-    width: 150px;
+    width: 50px;
     height: auto;
     margin-right: 20px;
 }
@@ -27,7 +28,7 @@ body {
 }
   
 .navbarlinks a {
-    color: white;  /* Link color */
+    color:black;  /* Link color */
     text-decoration: none;
     padding: 5px 10px;
 }
