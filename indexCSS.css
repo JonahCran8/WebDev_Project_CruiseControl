@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: lightgray;
 }
 
 /*Gives the "Cruise Control" heading the correct size font and alignment*/
@@ -33,7 +33,7 @@ h3 {
     }
 
 
-        .box {
+        .container.box {
             border: 2px solid rgb(99, 108, 69);;
             padding: 20px;
             width: 600px;
@@ -41,7 +41,7 @@ h3 {
             background-color: rgb(246, 251, 151);
         }
 
-        img {
+        .container img {
             margin-right: 500px;
             width: 300px;
             height: auto;
