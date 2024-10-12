@@ -22,17 +22,17 @@ body {
     padding: 0;
 }
 
-.nav-links li {
+.navbarlinks li {
     margin: 0 10px;  /* Space between links */
 }
   
-.nav-links a {
+.navbarlinks a {
     color: white;  /* Link color */
     text-decoration: none;
     padding: 5px 10px;
 }
   
-.nav-links a:hover {
+.navbarlinks a:hover {
     background-color: #555;  /* Link hover effect */
     border-radius: 5px;
 }
