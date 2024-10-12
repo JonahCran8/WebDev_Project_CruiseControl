@@ -2,54 +2,55 @@ body {
     background-color:white
 }
 
-.navbar { /* Navigation bar optimisation */
-    display: flex;
-    align-items: center;
-    background-color: rgb(200, 224, 235);
-    padding: 10px 10px;
-    justify-content: space-between;
-}
+/* Creates navigation bar with links to other pages and a logo */
 
-.logo { /* Logo size */
-    width: 100px;
-    height: auto;
-    margin-right: 20px;
-}
+    .navbar { /* Navigation bar optimisation */
+        display: flex;
+        align-items: center;
+        background-color: rgb(200, 224, 235);
+        padding: 10px 10px;
+        justify-content: space-between;
+    }
 
-.navbarlinks { /* Navigation bar links optimisation*/
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
+        .logo { /* Logo size */
+            width: 100px;
+            height: auto;
+            margin-right: 20px;
+        }
 
-.navbarlinks li {
-    margin: 0 10px;  /* Space between links */
-}
-  
-.navbarlinks a {
-    color:black;  /* Link color */
-    text-decoration: none;
-    padding: 5px 10px;
-}
-  
-.navbarlinks a:hover {
-    background-color: rgb(150, 224, 235);  /* Link hover effect */
-    border-radius: 5px;
-}
+    .navbarlinks { /* Navigation bar links optimisation*/
+        list-style: none;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
 
-    /*Gives the correct properties to the "Find the car for you" slogan beneath the main heading*/
+        .navbarlinks li {
+            margin: 0 10px;  /* Space between links */
+        }
+    
+            .navbarlinks a {
+                color:black;  /* Link color */
+                text-decoration: none;
+                padding: 5px 10px;
+            }
+    
+                .navbarlinks a:hover {
+                    background-color: rgb(150, 224, 235);  /* Link hover effect */
+                    border-radius: 5px;
+                }
 
-h1 {
+/* End of navigation bar */
+
+
+h1 { /*Gives the correct properties to the "Find the car for you" slogan beneath the main heading*/
         line-height: 0%;
         font-size: 30px;
         text-align: center;
         font-family: Arial, Helvetica, sans-serif;
+        margin-top: 20px;
     }
         
-        nav {
-            text-align: center;
-        }
 
 h3 { 
     text-align: left;
