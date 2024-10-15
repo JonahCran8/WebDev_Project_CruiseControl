@@ -60,6 +60,24 @@ main {
     align-items: flex-start;
 }
 
+/* Ensure the container takes up the full width */
+.container {
+    display: flex;
+    width: 100%; /* Full width of the main */
+}
+
+/* Form container styles */
+.form-container {
+    width: 40%; /* Width of the form */
+    margin-right: 20px; /* Margin to the right for spacing */
+}
+
+/* Image container styles */
+.image-container {
+    width: 40%; /* Width of the image container */
+}
+
+/* Styles for the headings and paragraphs */
 h1, h2, h3 {
     color: #333;
     font-family: 'Helvetica', sans-serif;
@@ -128,15 +146,4 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #3e5f89 !important; /* Darker shade of pastel dark blue */
-}
-
-/* Form container styles */
-.form-container {
-    width: 40%; /* Width of the form */
-    margin-right: 20px; /* Margin to the right for spacing */
-}
-
-/* Image container styles */
-.image-container {
-    width: 40%; /* Width of the image container */
 }
