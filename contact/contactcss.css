@@ -55,8 +55,8 @@ body {
 
 main {
     padding: 20px;
-    display: flex; 
-    justify-content: space-between; 
+    display: flex; /* Flexbox for layout */
+    justify-content: flex-end; /* Align content to the right */
     align-items: flex-start;
 }
 
@@ -68,12 +68,6 @@ h1, h2, h3 {
 p {
     font-size: 18px;
     color: #555;
-}
-
-/* Centered content */
-.center-content {
-    margin-top: 50px;
-    max-width: 50%; /* Ensure the left content doesn't take too much space */
 }
 
 /* Footer or additional padding adjustments */
@@ -89,8 +83,9 @@ main h2 {
 form {
     display: flex;
     flex-direction: column;
-    align-items: right;
+    align-items: flex-start; /* Align items to the left within the form */
     width: 100%; /* Make form take full width of its container */
+    max-width: 600px; /* Limit the width of the form */
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -133,8 +128,8 @@ input[type="submit"]:hover {
     background-color: #45a049;
 }
 
-/* Move from to right to add photo on left */
+/* Form container styles */
 .form-container {
     width: 40%; /* Adjust width as needed */
-    margin-left: auto; /* Pushes the form to the right */
+    margin-left: auto; /* Push the form to the right side of the screen */
 }
