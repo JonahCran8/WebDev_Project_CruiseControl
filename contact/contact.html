@@ -4,6 +4,31 @@
     <meta charset="UTF-8">
     <title>Cruise Control</title>
     <link rel="stylesheet" href="contactcss.css">
+    <style>
+      /* Inline CSS to handle layout */
+      .container {
+        display: flex; /* Use flexbox for layout */
+        justify-content: space-between; /* Space between items */
+        align-items: center; /* Center items vertically */
+        margin: 20px; /* Margin around the container */
+      }
+
+      .form-container {
+        flex: 1; /* Allow the form to take available space */
+        max-width: 400px; /* Set max width for form */
+      }
+
+      .image-container {
+        flex: 1; /* Allow the image container to take available space */
+        display: flex; /* Center the image */
+        justify-content: center; /* Center the image horizontally */
+      }
+
+      img {
+        max-width: 100%; /* Ensure image is responsive */
+        height: auto; /* Maintain aspect ratio */
+      }
+    </style>
   </head>
   <body>
     
@@ -21,26 +46,34 @@
     
     <!-- Contact Form -->
     <main>
-      <center>
-        <h1>Contact Me</h1>
-        <form action="/submit_contact" method="post">
-          
-          <label for="name">Name:</label><br>
-          <input type="text" id="name" name="name" required><br><br>
+      <div class="container">
+        <div class="form-container">
+          <center>
+            <h1>Contact Me</h1>
+            <form action="/submit_contact" method="post">
+              
+              <label for="name">Name:</label><br>
+              <input type="text" id="name" name="name" required><br><br>
 
-          <label for="email">Email:</label><br>
-          <input type="email" id="email" name="email" required><br><br>
-          
-          <label for="phone">Phone Number:</label><br>
-          <input type="tel" id="phone" name="phone" required><br><br>
-          
-          <label for="message">Message:</label><br>
-          <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-          
-          <input type="submit" value="Submit">
-          
-        </form>
-      </center>
+              <label for="email">Email:</label><br>
+              <input type="email" id="email" name="email" required><br><br>
+              
+              <label for="phone">Phone Number:</label><br>
+              <input type="tel" id="phone" name="phone" required><br><br>
+              
+              <label for="message">Message:</label><br>
+              <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+              
+              <input type="submit" value="Submit">
+              
+            </form>
+          </center>
+        </div>
+        
+        <div class="image-container">
+          <img src="phone2.png" alt="Phone Image"> <!-- Add your image here -->
+        </div>
+      </div>
     </main>
     
   </body>
