@@ -54,27 +54,28 @@ body {
 }
 
 main {
+    display: flex; /* Use flexbox for layout */
     padding: 20px;
-    display: flex;
-    justify-content: flex-start; /* Align items to the left */
-    align-items: flex-start;
-}
-
-/* Ensure the container takes up the full width */
-.container {
-    display: flex;
-    width: 100%; /* Full width of the main */
 }
 
 /* Form container styles */
 .form-container {
-    width: 40%; /* Width of the form */
-    margin-right: 20px; /* Margin to the right for spacing */
+    width: 50%; /* Width of the form */
+    padding-right: 20px; /* Space between the form and the image */
 }
 
 /* Image container styles */
 .image-container {
-    width: 40%; /* Width of the image container */
+    width: 50%; /* Width of the image container */
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Center the image vertically */
+}
+
+/* Styles for the image */
+.image-container img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
 }
 
 /* Styles for the headings and paragraphs */
@@ -88,26 +89,16 @@ p {
     color: #555;
 }
 
-/* Footer or additional padding adjustments */
-main h1 {
-    margin-bottom: 20px;
-}
-
-main h2 {
-    margin-bottom: 10px;
-}
-
 /* Contact form styles */
 form {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 100%;
-    max-width: 600px;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Full width of the form */
 }
 
 label {
