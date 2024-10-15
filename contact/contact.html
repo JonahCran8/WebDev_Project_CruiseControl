@@ -9,22 +9,38 @@
     
     <!-- Nav bar skeleton  -->
     <nav class="navbar">
-      <a href="/WebDev_Project_CruiseControl/index.html"> <!-- Make logo redirect to index page on click -->
+      <a href="../index.html"> <!-- Make logo redirect to index page on click -->
         <img src="logo.png" alt="Logo" class="logo">
       </a>
       <ul class="navbarlinks">
-       <ul class="navbarlinks">
-          <li><a href="../index.html">Home</a></li> <!-- the .. is to search whole repo instead of just contanct folder -->
+          <li><a href="../index.html">Home</a></li> <!-- the .. is to search whole repo instead of just contact folder -->
           <li><a href="../about/about.html">About</a></li>
           <li><a href="contact.html">Contact Me</a></li> <!-- Already in the same directory -->
       </ul>
-
-      </ul>
     </nav>
     
-    <!-- Contanct Info -->
+    <!-- Contact Form -->
     <main>
-      
+      <center>
+        <h1>Contact Me</h1>
+        <form action="/submit_contact" method="post">
+          
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name" required><br><br>
+
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+          
+          <label for="phone">Phone Number:</label><br>
+          <input type="tel" id="phone" name="phone" required><br><br>
+          
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+          
+          <input type="submit" value="Submit">
+          
+        </form>
+      </center>
     </main>
     
   </body>
