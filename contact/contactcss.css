@@ -89,7 +89,7 @@ main h2 {
 form {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: right;
     width: 100%; /* Make form take full width of its container */
     background-color: #fff;
     padding: 20px;
