@@ -29,7 +29,7 @@ body {
         .navbarlinks li {
             margin: 0 10px;
             border-right: 1px solid rgb(153, 172, 181);
-            padding-right: 15px;
+            padding-right: 17px;
         }
 
 
@@ -52,11 +52,6 @@ body {
                 }
 
 /* End of navigation bar */
-
-
-.slogan {
-    
-}
 
 
 h1 { /*Gives the correct properties to the "Find the car for you" slogan beneath the main heading*/
