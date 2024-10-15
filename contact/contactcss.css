@@ -117,8 +117,8 @@ textarea {
 
 /* Submit button styling */
 input[type="submit"] {
-    background-color: #4a6fa5; /* Pastel dark blue */
-    color: white;
+    background-color: #4a6fa5 !important; /* Pastel dark blue with !important */
+    color: white !important;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -127,7 +127,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #3e5f89; /* Darker shade of pastel dark blue */
+    background-color: #3e5f89 !important; /* Darker shade of pastel dark blue */
 }
 
 /* Form container styles */
