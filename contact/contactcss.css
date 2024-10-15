@@ -56,7 +56,7 @@ body {
 main {
     padding: 20px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start; /* Align items to the left */
     align-items: flex-start;
 }
 
@@ -132,6 +132,11 @@ input[type="submit"]:hover {
 
 /* Form container styles */
 .form-container {
-    width: 40%;
-    margin-left: auto;
+    width: 40%; /* Width of the form */
+    margin-right: 20px; /* Margin to the right for spacing */
+}
+
+/* Image container styles */
+.image-container {
+    width: 40%; /* Width of the image container */
 }
