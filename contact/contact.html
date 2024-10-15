@@ -1,53 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <title>Cruise Control</title>
     <link rel="stylesheet" href="contactcss.css">
-  </head>
-  <body>
+</head>
+<body>
     
     <!-- Nav bar skeleton  -->
     <nav class="navbar">
-      <a href="../index.html"> <!-- Make logo redirect to index page on click -->
-        <img src="logo.png" alt="Logo" class="logo">
-      </a>
-      <ul class="navbarlinks">
-          <li><a href="../index.html">Home</a></li> <!-- the .. is to search whole repo instead of just contact folder -->
-          <li><a href="../about/about.html">About</a></li>
-          <li><a href="contact.html">Contact Me</a></li> <!-- Already in the same directory -->
-      </ul>
+        <a href="../index.html"> <!-- Make logo redirect to index page on click -->
+            <img src="logo.png" alt="Logo" class="logo">
+        </a>
+        <ul class="navbarlinks">
+            <li><a href="../index.html">Home</a></li> <!-- the .. is to search whole repo instead of just contact folder -->
+            <li><a href="../about/about.html">About</a></li>
+            <li><a href="contact.html">Contact Me</a></li> <!-- Already in the same directory -->
+        </ul>
     </nav>
     
     <!-- Contact Form -->
     <main>
-      <div class="container">
-        <div class="form-container">
-          <h1>Contact Me</h1>
-          <form action="/submit_contact" method="post">
-            
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required><br><br>
+        <div class="container">
+            <div class="form-container">
+                <h1>Contact Me</h1>
+                <form action="/submit_contact" method="post">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
 
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" required><br><br>
+                    
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+                    
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
             
-            <label for="phone">Phone Number:</label><br>
-            <input type="tel" id="phone" name="phone" required><br><br>
-            
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
-            
-            <input type="submit" value="Submit">
-            
-          </form>
+            <div class="image-container">
+                <img src="phone2.png" alt="Phone Image"> 
+            </div>
         </div>
-        
-        <div class="image-container">
-          <img src="phone2.png" alt="Phone Image"> <!-- Add your image here -->
-        </div>
-      </div>
     </main>
     
-  </body>
+</body>
 </html>
