@@ -1,140 +1,142 @@
 /* Navigation bar styles */
 .navbar {
-    display: flex;
-    align-items: center;
-    background-color: rgb(200, 224, 235);
-    justify-content: start;
-    border-radius: 5px;
-    padding: 0px 15px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(200, 224, 235);
+  justify-content: start;
+  border-radius: 5px;
+  padding: 0px 15px;
 }
 
 .logo {
-    width: 75px;
-    height: auto;
-    margin-right: 10px;
+  width: 75px;
+  height: auto;
+  margin-right: 10px;
 }
 
 .navbarlinks {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .navbarlinks li {
-    margin: 0 10px;
-    border-right: 1px solid rgb(153, 172, 181);
-    padding-right: 17px;
+  margin: 0 10px;
+  border-right: 1px solid rgb(153, 172, 181);
+  padding-right: 17px;
 }
 
 .navbarlinks li:last-child {
-    border-right: none;
-    padding-right: 0;
+  border-right: none;
+  padding-right: 0;
 }
 
 .navbarlinks a {
-    color: black;
-    text-decoration: none;
-    padding: 5px 10px;
-    font-family: Helvetica, Arial, sans-serif;
-    font-size: 20px;
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
 }
 
 .navbarlinks a:hover {
-    background-color: rgb(153, 172, 181);
-    border-radius: 5px;
+  background-color: rgb(153, 172, 181);
+  border-radius: 5px;
 }
 
 /* Main content styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
 }
 
 main {
-    display: flex; /* Use flexbox for layout */
-    padding: 20px;
+  display: flex; /* Use flexbox for layout */
+  padding: 20px;
 }
 
 /* Form container styles */
 .form-container {
-    width: 50%; /* Width of the form */
-    padding-right: 20px; /* Space between the form and the image */
+  width: 50%; /* Width of the form */
+  padding-right: 20px; /* Space between the form and the image */
 }
 
 /* Image container styles */
 .image-container {
-    width: 50%; /* Width of the image container */
-    display: flex;
-    justify-content: center; /* Center the image horizontally */
-    align-items: center; /* Center the image vertically */
+  width: 50%; /* Width of the image container */
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: flex-start; /* Align items to the start to control vertical position */
+  margin-top: 100px; /* Move the image down further */
 }
 
 /* Styles for the image */
 .image-container img {
-    max-width: 100%; /* Responsive image */
-    height: auto; /* Maintain aspect ratio */
+  width: auto; /* Allow image to keep its aspect ratio */
+  height: 300px; /* Set a fixed height to make the image larger */
+  max-width: 100%; /* Ensure it does not overflow the container */
 }
 
 /* Styles for the headings and paragraphs */
 h1, h2, h3 {
-    color: #333;
-    font-family: 'Helvetica', sans-serif;
+  color: #333;
+  font-family: 'Helvetica', sans-serif;
 }
 
 p {
-    font-size: 18px;
-    color: #555;
+  font-size: 18px;
+  color: #555;
 }
 
 /* Contact form styles */
 form {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 100%; /* Full width of the form */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Full width of the form */
 }
 
 label {
-    font-size: 18px;
-    color: #333;
-    margin-bottom: 5px;
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="tel"],
 textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
 /* Disable resizing for the message textarea */
 textarea {
-    resize: none; /* Prevent resizing */
+  resize: none; /* Prevent resizing */
 }
 
 /* Submit button styling */
 input[type="submit"] {
-    background-color: #4a6fa5 !important; /* Pastel dark blue with !important */
-    color: white !important;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 18px;
-    cursor: pointer;
+  background-color: #4a6fa5 !important; /* Pastel dark blue with !important */
+  color: white !important;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #3e5f89 !important; /* Darker shade of pastel dark blue */
+  background-color: #3e5f89 !important; /* Darker shade of pastel dark blue */
 }
