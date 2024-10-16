@@ -1,3 +1,7 @@
+body {
+  background-color: white;
+}
+
 /* Navigation bar styles */
 .navbar {
   display: flex;
@@ -36,7 +40,7 @@
   color: black;
   text-decoration: none;
   padding: 5px 10px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica;
   font-size: 20px;
 }
 
@@ -53,66 +57,72 @@ body {
   background-color: #f4f4f4;
 }
 
-main {
-  display: flex; /* Use flexbox for layout */
+/* Container for form and image-paragraph to be side-by-side */
+.form-image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
   padding: 20px;
+  box-sizing: border-box;
 }
 
 /* Form container styles */
 .form-container {
-  width: 50%; /* Width of the form */
-  padding-right: 20px; /* Space between the form and the image */
-}
-
-/* Image container styles */
-.image-container {
-  width: 50%; /* Width of the image container */
-  display: flex;
-  justify-content: center; /* Center the image horizontally */
-  align-items: flex-start; /* Align items to the start to control vertical position */
-  margin-top: 100px; /* Move the image down further */
-}
-
-/* Styles for the image */
-.image-container img {
-  width: auto; /* Allow image to keep its aspect ratio */
-  height: 300px; /* Set a fixed height to make the image larger */
-  max-width: 100%; /* Ensure it does not overflow the container */
-}
-
-/* Styles for the headings and paragraphs */
-h1, h2, h3 {
-  color: #333;
-  font-family: 'Helvetica', sans-serif;
-}
-
-p {
-  font-size: 18px;
-  color: #555;
-}
-
-/* Contact form styles */
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  width: 45%; /* Adjust the width of the form to make it smaller */
+  padding-right: 20px;
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 100%; /* Full width of the form */
 }
 
-label {
+/* Image and paragraph container styles */
+.image-paragraph-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 45%; /* Adjust the width to balance with the form */
+}
+
+/* Image container styles */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 20px; /* Add space between the image and paragraph */
+}
+
+/* Styles for the image */
+.image-container img {
+  width: auto;
+  height: 300px;
+  max-width: 100%;
+}
+
+/* Paragraph container with border and padding */
+.paragraph-container {
+  padding: 15px;
+  border: 2px solid rgb(112, 139, 147);
+  background-color: rgb(200, 224, 235);
+  border-radius: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Form input styles */
+form label {
   font-size: 18px;
   color: #333;
   margin-bottom: 5px;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-textarea {
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
@@ -121,14 +131,13 @@ textarea {
   font-size: 16px;
 }
 
-/* Disable resizing for the message textarea */
-textarea {
-  resize: none; /* Prevent resizing */
+form textarea {
+  resize: none;
 }
 
 /* Submit button styling */
-input[type="submit"] {
-  background-color: #4a6fa5 !important; /* Pastel dark blue with !important */
+form input[type="submit"] {
+  background-color: #4a6fa5 !important;
   color: white !important;
   border: none;
   padding: 10px 20px;
@@ -137,6 +146,6 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
-  background-color: #3e5f89 !important; /* Darker shade of pastel dark blue */
+form input[type="submit"]:hover {
+  background-color: #3e5f89 !important;
 }
