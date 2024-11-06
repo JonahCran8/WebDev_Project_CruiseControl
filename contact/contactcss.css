@@ -3,7 +3,7 @@ body {
 }
 
 /* Navigation bar styles */
-.navbar {
+.navbar { /* Navigation bar styling */
   display: flex;
   align-items: center;
   background-color: rgb(200, 224, 235);
