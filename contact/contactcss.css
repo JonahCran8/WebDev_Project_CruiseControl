@@ -2,7 +2,8 @@ body {
   background-color: white;
 }
 
-/* Navigation bar styles */
+/* Creates navigation bar with links to other pages and a logo */
+
 .navbar { /* Navigation bar styling */
   display: flex;
   align-items: center;
@@ -12,42 +13,45 @@ body {
   padding: 0px 15px;
 }
 
-.logo {
-  width: 75px;
-  height: auto;
-  margin-right: 10px;
-}
+  .logo { /* Logo size */
+      width: 75px;
+      height: auto;
+      margin-right: 10px;
+  }
 
-.navbarlinks {
+.navbarlinks { /* Navigation bar links styling*/
   list-style: none;
   display: flex;
   margin: 0;
   padding: 0;
 }
 
-.navbarlinks li {
-  margin: 0 10px;
-  border-right: 1px solid rgb(153, 172, 181);
-  padding-right: 17px;
-}
+  .navbarlinks li {
+      margin: 0 10px;
+      border-right: 1px solid rgb(153, 172, 181);
+      padding-right: 17px;
+  }
 
-.navbarlinks li:last-child {
-  border-right: none;
-  padding-right: 0;
-}
 
-.navbarlinks a {
-  color: black;
-  text-decoration: none;
-  padding: 5px 10px;
-  font-family: Helvetica;
-  font-size: 20px;
-}
+  .navbarlinks li:last-child {
+      border-right: none;
+      padding-right: 0;
+  }
 
-.navbarlinks a:hover {
-  background-color: rgb(153, 172, 181);
-  border-radius: 5px;
-}
+      .navbarlinks a {
+          color:black;  /* Link color */
+          text-decoration: none;
+          padding: 5px 10px;
+          font-family: Helvetica;
+          font-size: 20px;
+      }
+
+          .navbarlinks a:hover {
+              background-color: rgb(153, 172, 181);  /* Link hover effect */
+              border-radius: 5px;
+          }
+
+/* End of navigation bar */
 
 /* Main content styles */
 body {
