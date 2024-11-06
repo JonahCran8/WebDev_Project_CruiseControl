@@ -4,7 +4,7 @@ body {
 
 /* Creates navigation bar with links to other pages and a logo */
 
-    .navbar { /* Navigation bar optimisation */
+    .navbar { /* Navigation bar styling */
         display: flex;
         align-items: center;
         background-color: rgb(200, 224, 235);
@@ -19,7 +19,7 @@ body {
             margin-right: 10px;
         }
 
-    .navbarlinks { /* Navigation bar links optimisation*/
+    .navbarlinks { /* Navigation bar links styling*/
         list-style: none;
         display: flex;
         margin: 0;
