@@ -53,7 +53,13 @@ body {
 
 /* End of navigation bar */
 
+.porsche_main_div {
+  padding-top: 10px;
+}
 
+.porsche_main {
+  border-radius: 15px;
+}
 
 
 
