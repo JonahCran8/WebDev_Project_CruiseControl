@@ -1,8 +1,8 @@
 
-body { 
+body {
   background-color: white;
 
-} 
+}
 
 .navbar { /* Navigation bar optimisation */
   display: flex;
@@ -11,10 +11,12 @@ body {
   justify-content: start;
   border-radius: 5px;
   padding: 0px 15px;
+  border: rgb(76, 87, 92) solid 2px;
+  box-shadow: 3px 3px 6px rgb(34, 39, 42);
 }
 
   .logo { /* Logo size */
-      width: 75px;
+      width: 115px;
       height: auto;
       margin-right: 10px;
   }
@@ -47,19 +49,29 @@ body {
       }
 
           .navbarlinks a:hover {
-              background-color: rgb(153, 172, 181);  /* Link hover effect */
-              border-radius: 5px;
+            background-color: rgb(180, 200, 210);  /* Link hover effect */
+            border-radius: 5px;
           }
 
 /* End of navigation bar */
 
+
+/* Porsche main div*/
 .porsche_main_div {
   padding-top: 10px;
+  display: flex;
+  background-size: cover;
 }
 
 .porsche_main {
   border-radius: 5px;
+  display: flex;
+  background-size: cover;
+  width: 100%;
+  border: black solid 3px;
+  box-shadow: 3px 3px 6px;
 }
+/*End of porsche main div*/
 
 
 

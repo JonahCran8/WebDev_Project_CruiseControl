@@ -1,1 +1,54 @@
-
+body {
+    background-color: white;
+  }
+  
+  /* Creates navigation bar with links to other pages and a logo */
+  .navbar { /* Navigation bar styling */
+    display: flex;
+    align-items: center;
+    background-color: rgb(200, 224, 235);
+    justify-content: start;
+    border-radius: 5px;
+    padding: 0px 15px;
+    border: rgb(76, 87, 92) solid 2px;
+    box-shadow: 3px 3px 6px rgb(34, 39, 42);
+  }
+  
+  .logo { /* Logo size */
+    width: 75px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .navbarlinks { /* Navigation bar links styling*/
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbarlinks li {
+    margin: 0 10px;
+    border-right: 1px solid rgb(153, 172, 181);
+    padding-right: 17px;
+  }
+  
+  .navbarlinks li:last-child {
+    border-right: none;
+    padding-right: 0;
+  }
+  
+  .navbarlinks a {
+    color: black;  /* Link color */
+    text-decoration: none;
+    padding: 5px 10px;
+    font-family: Helvetica;
+    font-size: 20px;
+  }
+  
+  .navbarlinks a:hover {
+    background-color: rgb(180, 200, 210);  /* Link hover effect */
+    border-radius: 5px;
+  }
+  
+  /* Main content styles */

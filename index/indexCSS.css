@@ -11,10 +11,12 @@ body {
         justify-content: start;
         border-radius: 5px;
         padding: 0px 15px;
+        border: rgb(76, 87, 92) solid 2px;
+        box-shadow: 3px 3px 6px rgb(34, 39, 42);
     }
 
         .logo { /* Logo size */
-            width: 75px;
+            width: 115px;
             height: auto;
             margin-right: 10px;
         }
@@ -47,7 +49,7 @@ body {
             }
     
                 .navbarlinks a:hover {
-                    background-color: rgb(153, 172, 181);  /* Link hover effect */
+                    background-color: rgb(180, 200, 210);  /* Link hover effect */
                     border-radius: 5px;
                 }
 
