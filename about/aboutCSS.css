@@ -76,7 +76,7 @@ body {
 
 .background_main {
   opacity: 0.2;
-  background-image: url("background.png");
+  background-image: url("/WebDev_Project_CruiseControl/assets/background.png");
 }
 
 
