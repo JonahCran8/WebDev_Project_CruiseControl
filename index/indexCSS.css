@@ -60,7 +60,7 @@ body {
 .main_heading {
     border: rgb(76, 87, 92) solid 2px;
     border-radius: 5px;
-    padding-top: 10px;
+    margin-top: 10px;
 }
 
 .heading2 {
