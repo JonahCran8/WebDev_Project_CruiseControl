@@ -53,10 +53,17 @@ body {
 
 /* End of navigation bar */
 
+
+.about_porsche {
+  width: auto;
+  height: auto;
+  padding-top: 10px;
+}
+
 .porsche_main {
   border-radius: 15px;
-  padding: 10px;
   width: 100%;
 }
+
 
 
