@@ -1,8 +1,8 @@
 
-body { 
+body {
   background-color: white;
 
-} 
+}
 
 .navbar { /* Navigation bar optimisation */
   display: flex;
@@ -69,6 +69,7 @@ body {
   background-size: cover;
   width: 100%;
   border: black solid 3px;
+  box-shadow: 3px 3px 6px;
 }
 /*End of porsche main div*/
 
