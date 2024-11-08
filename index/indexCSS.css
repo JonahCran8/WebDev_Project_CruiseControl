@@ -78,7 +78,8 @@ body {
     border-radius: 15px;
     margin-top: 10px;
     font-family: Helvetica;
-    box-shadow: 1px 1px 6px;
+    box-shadow: 3px 3px 6px;
+    background-color: rgb(200, 224, 235);
 }
 
 .heading2 {
