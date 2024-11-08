@@ -60,6 +60,7 @@ body {
 
 .porsche_main {
   border-radius: 5px;
+  display: flex;
 }
 
 
