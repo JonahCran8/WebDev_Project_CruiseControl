@@ -10,7 +10,7 @@ body {
   justify-content: start;
   border-radius: 5px;
   padding: 0px 15px;
-  border: black solid 5px;
+  border: rgb(76, 87, 92) solid 2px;
 }
 
 .logo { /* Logo size */
