@@ -56,11 +56,13 @@ body {
 .porsche_main_div {
   padding-top: 10px;
   display: flex;
+  background-size: cover;
 }
 
 .porsche_main {
   border-radius: 5px;
   display: flex;
+  background-size: cover;
 }
 
 
