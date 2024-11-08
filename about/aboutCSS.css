@@ -58,8 +58,11 @@ body {
 }
 
 .porsche_main {
-  border-radius: 15px;
-  width: 100%;
+  border-radius: 5px;
+  justify-content: start;
+  border-radius: 5px;
+  padding: 0px 15px;
+  align-items: center;
 }
 
 
