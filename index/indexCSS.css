@@ -55,6 +55,22 @@ body {
 
 /* End of navigation bar */
 
+.heading_image_div {
+    padding-top: 10px;
+    display: flex;
+    background-size: cover;
+}
+
+.heading_image {
+    border-radius: 5px;
+    display: flex;
+    background-size: cover;
+    width: 100%;
+    border: black solid 3px;
+    box-shadow: 3px 3px 6px;
+
+}
+
 /*start of main heading*/
     
 .main_heading {
