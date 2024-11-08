@@ -61,13 +61,14 @@ body {
     border: rgb(76, 87, 92) solid 2px;
     border-radius: 5px;
     margin-top: 10px;
+    font-family: Helvetica;
 }
 
 .heading2 {
+    font-style: normal;
     text-align: center;
     font: Helvetica;
     font-size: 50px;
-    font: normal;
 }
 
 .headinginfo {
@@ -75,6 +76,7 @@ body {
     list-style: none;
     justify-content: space-between;
     padding: 0;
+    font-size: 30px;
 }
 
 .headinginfo li {
