@@ -49,7 +49,7 @@ body {
             }
     
                 .navbarlinks a:hover {
-                    background-color: rgb(153, 172, 181);  /* Link hover effect */
+                    background-color: rgb(180, 200, 210);  /* Link hover effect */
                     border-radius: 5px;
                 }
 
