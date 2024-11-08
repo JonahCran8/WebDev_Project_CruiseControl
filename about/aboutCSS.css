@@ -11,6 +11,7 @@ body {
   justify-content: start;
   border-radius: 5px;
   padding: 0px 15px;
+  border: black solid 5px;
 }
 
   .logo { /* Logo size */
@@ -53,6 +54,8 @@ body {
 
 /* End of navigation bar */
 
+
+/* Porsche main div*/
 .porsche_main_div {
   padding-top: 10px;
   display: flex;
@@ -64,7 +67,9 @@ body {
   display: flex;
   background-size: cover;
   width: 100%;
+  border: black solid 5px;
 }
+/*End of porsche main div*/
 
 
 

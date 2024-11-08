@@ -11,6 +11,7 @@ body {
         justify-content: start;
         border-radius: 5px;
         padding: 0px 15px;
+        border: black solid 5px;
     }
 
         .logo { /* Logo size */
