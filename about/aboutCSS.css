@@ -76,6 +76,7 @@ body {
 
 .background_main {
   opacity: 0.5;
+  background-image: url("background.png");
 }
 
 
