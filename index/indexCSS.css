@@ -62,7 +62,7 @@ body {
 }
 
 .heading_image {
-    border-radius: 5px;
+    border-radius: 15px;
     display: flex;
     background-size: cover;
     width: 100%;
