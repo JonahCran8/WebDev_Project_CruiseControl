@@ -100,3 +100,22 @@ body {
     flex: 1;
 }
 
+.headinginfo li::before {
+    display: block;
+    content: "";
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.headinginfo li:nth-child(1)::before {
+    content: "\f015";
+}
+
+.headinginfo li:nth-child(2)::before {
+    content: "\f007";
+}
+
+.headinginfo li:nth-child(3)::before {
+    content: "\f013";
+}
+
