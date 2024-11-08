@@ -50,13 +50,4 @@ body {
   border-radius: 5px;
 }
 
-/* Main content styles */
-.form-image-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
-}
 
