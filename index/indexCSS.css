@@ -117,11 +117,11 @@ body {
     display: flex;
     padding: 10px;
     border-top: rgb(76, 87, 92) 3px solid;
-    border-bottom: auto;
+    border-bottom: rgb(76, 87, 92) 3px solid;
     margin-top: 15px;
     background-color: rgb(200, 224, 235);
     margin-left: 0;
-    margin-right: auto;
+    margin-right: 0;
     width: 100%;
 }
     .main_title {
