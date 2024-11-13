@@ -122,6 +122,8 @@ body {
 }
 .main_title {
     font-size: 75px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
 }
 /*End of title*/
 
