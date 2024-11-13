@@ -116,6 +116,9 @@ body {
 .main_title_div {
     padding: 0;
     border-top: rgb(76, 87, 92) 3px;
+    border-bottom: rgb(76, 87, 92) 3px;
+    margin-top: 15px;
+    background-color: rgb(200, 224, 235);
 }
 .main_title {
     font-size: 75px;
