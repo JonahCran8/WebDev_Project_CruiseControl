@@ -74,7 +74,7 @@ body {
 /*start of main heading*/
     
 .main_heading_div {
-    border: rgb(76, 87, 92) 3px;
+    border: rgb(76, 87, 92) 3px solid;
     border-radius: 15px;
     margin-top: 15px;
     font-family: Helvetica;
@@ -115,15 +115,15 @@ body {
 /*Title*/
 .main_title_div {
     padding: 0;
-    border-top: rgb(76, 87, 92) 3px;
-    border-bottom: rgb(76, 87, 92) 3px;
+    border-top: rgb(76, 87, 92) 3px solid;
+    border-bottom: rgb(76, 87, 92) 3px solid;
     margin-top: 15px;
     background-color: rgb(200, 224, 235);
 }
-.main_title {
-    font-size: 75px;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
-}
+    .main_title {
+        font-size: 75px;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+    }
 /*End of title*/
 
