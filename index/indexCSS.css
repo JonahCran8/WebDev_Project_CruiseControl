@@ -114,9 +114,10 @@ body {
 
 /*Title*/
 .main_title_div {
+    display: flex;
     padding: 10px;
     border-top: rgb(76, 87, 92) 3px solid;
-    border-bottom: rgb(76, 87, 92) 3px solid;
+    border-bottom: auto;
     margin-top: 15px;
     background-color: rgb(200, 224, 235);
     margin-left: 0;
