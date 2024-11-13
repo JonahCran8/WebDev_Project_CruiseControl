@@ -66,15 +66,15 @@ body {
     display: flex;
     background-size: cover;
     width: 100%;
-    border: black solid 3px;
+    border: rgb(76, 87, 92) 3px;
     box-shadow: 3px 3px 6px;
 
 }
 
 /*start of main heading*/
     
-.main_heading {
-    border: black solid 3px;
+.main_heading_div {
+    border: rgb(76, 87, 92) 3px;
     border-radius: 15px;
     margin-top: 15px;
     font-family: Helvetica;
