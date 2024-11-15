@@ -20,6 +20,7 @@ html, body {
         border: rgb(76, 87, 92) solid 2px;
         box-shadow: 3px 3px 6px rgb(34, 39, 42);
         margin: 15px;
+        margin-bottom: 0px;
     }
 
         .logo { /* Logo size */
