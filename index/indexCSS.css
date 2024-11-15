@@ -2,6 +2,12 @@ body {
     background-color:white
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
 /* Creates navigation bar with links to other pages and a logo */
 
     .navbar { /* Navigation bar styling */
@@ -114,7 +120,7 @@ body {
 
 /*Title*/
 .main_title_div {
-    display: flex;
+    display: flexbox;
     padding: 10px;
     border-top: rgb(76, 87, 92) 3px solid;
     border-bottom: rgb(76, 87, 92) 3px solid;
