@@ -70,7 +70,7 @@ html, body {
 }
 
 .heading_image {
-    border-radius: 15px;
+    border-radius: 0px;
     display: flex;
     background-size: cover;
     width: 100%;
