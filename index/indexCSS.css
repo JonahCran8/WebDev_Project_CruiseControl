@@ -64,8 +64,9 @@ html, body {
 
 .heading_image_div {
     padding-top: 15px;
-    display: flex;
+    display: flexbox;
     background-size: cover;
+    width: 100%;
 }
 
 .heading_image {
@@ -75,8 +76,6 @@ html, body {
     width: 100%;
     border: rgb(76, 87, 92) 3px;
     box-shadow: 3px 3px 6px;
-    margin: 15px;
-
 }
 
 /*start of main heading*/
