@@ -123,7 +123,7 @@ html, body {
 /*Title*/
 .main_title_div {
     display: flexbox;
-    padding: 10px, 0px;
+    padding: 0px, 0px;
     border-top: rgb(76, 87, 92) 3px solid;
     border-bottom: rgb(76, 87, 92) 3px solid;
     margin-top: 15px;
