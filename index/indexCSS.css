@@ -19,6 +19,7 @@ html, body {
         padding: 0px 15px;
         border: rgb(76, 87, 92) solid 2px;
         box-shadow: 3px 3px 6px rgb(34, 39, 42);
+        margin: 15px;
     }
 
         .logo { /* Logo size */
@@ -82,7 +83,7 @@ html, body {
 .main_heading_div {
     border: rgb(76, 87, 92) 3px solid;
     border-radius: 15px;
-    margin-top: 15px;
+    margin: 15px;
     font-family: Helvetica;
     box-shadow: 3px 3px 6px;
     background-color: rgb(200, 224, 235);
