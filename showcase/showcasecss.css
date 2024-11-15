@@ -22,9 +22,9 @@ body {
 
 .navbarlinks { /* Navigation bar links styling*/
   list-style: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .navbarlinks li {
@@ -39,7 +39,7 @@ body {
 }
 
 .navbarlinks a {
-  color: black;  /* Link color */
+  color:black;  /* Link color */
   text-decoration: none;
   padding: 5px 10px;
   font-family: Helvetica;
