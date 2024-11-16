@@ -119,6 +119,11 @@ body {
   max-width: 33.3%;
   padding: 5px;
   float: right;
+  border: 3px solid black;
+  padding: 10px;
+  width: 600px;
+  height: 275px;
+  border-radius: 7px;
 }
 
 
