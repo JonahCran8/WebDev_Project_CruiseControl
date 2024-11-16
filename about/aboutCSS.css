@@ -99,6 +99,7 @@ body {
   border-radius: 7px;
   background-color: rgb(200, 224, 235);
   float: left;
+  display: flex;
 }
 
 
@@ -107,6 +108,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 20px;
+  display: flex;
 }
 
 
@@ -127,6 +129,7 @@ body {
   height: 275px;
   border-radius: 7px;
   margin: auto;
+  display: flex;
 }
 
 
