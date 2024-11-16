@@ -102,6 +102,7 @@ body {
 
 .first_paragraph{
   width: 100%;
+  background-color: rgb(200, 224, 235);
 }
 
 
@@ -115,6 +116,7 @@ body {
   max-width: 33.3%;
   padding: 5px;
   float: right;
+  height: fit-content;
 }
 
 
