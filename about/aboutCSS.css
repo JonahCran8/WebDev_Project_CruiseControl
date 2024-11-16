@@ -97,12 +97,12 @@ body {
   text-align: justify;
   margin: 0;
   border-radius: 7px;
+  background-color: rgb(200, 224, 235);
 }
 
 
 .first_paragraph{
   width: 100%;
-  background-color: rgb(200, 224, 235);
 }
 
 
