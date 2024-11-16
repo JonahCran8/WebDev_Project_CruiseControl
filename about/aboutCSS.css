@@ -103,6 +103,8 @@ body {
 
 .first_paragraph{
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 
@@ -117,6 +119,7 @@ body {
   padding: 5px;
   float: right;
   height: 100px;
+
 }
 
 
