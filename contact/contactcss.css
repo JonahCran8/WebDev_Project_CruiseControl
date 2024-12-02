@@ -54,6 +54,7 @@ body {
 .contact_container {
   display: flex;
   align-items: left;
+  margin-top: 15px;
   background-color: rgb(200, 224, 235);
   border: rgb(76, 87, 92) solid 2px;
   border-radius: 10px;
