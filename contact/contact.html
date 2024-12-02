@@ -21,21 +21,26 @@
         </ul>
     </nav>
 
-    <div class="contact_container">
-        <h2>Contact Us</h2>
-        <form id="contact_form">
-            <label for="contact_name">Ful Name</label>
-            <input type="text" id="name" name="name" required>
+    <div class="contact_div">
+        <div class="contact_container">
+            <h2>Contact Us</h2>
+            <form id="contact_form">
+                <label for="contact_name">First Name</label>
+                <input type="text" id="firstname" name="firstname" required>
 
-            <label for="contact_email">Email</label>
-            <input type="email" id="email" name="email" required>
+                <label for="contact_name">Last Name</label>
+                <input type="text" id="lastname" name="lastname" required>
 
-            <label for="contact_message">Message</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
+                <label for="contact_email">Email</label>
+                <input type="email" id="email" name="email" required>
 
-            <button type="button" onclick="submitForm()">Submit</button>
-        </form>
+                <label for="contact_message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="button" onclick="submitForm()">Submit</button>
+            </form>
+        </div>
+        <script src="/WebDev_Project_CruiseControl/Javascript/contact.js"></script>
     </div>
-    <script src="/WebDev_Project_CruiseControl/Javascript/contact.js"></script>
 </body>
 </html>
