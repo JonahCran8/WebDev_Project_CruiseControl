@@ -51,4 +51,24 @@ body {
   border-radius: 5px;
 }
 
+.contact_conttainer {
+  display: flex;
+  align-items: left;
+  background-color: rgb(200, 224, 235);
+  border: rgb(76, 87, 92) solid 2px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h2 {
+  font-family: Helvetica;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
 
