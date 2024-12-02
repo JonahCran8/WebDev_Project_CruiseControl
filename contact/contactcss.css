@@ -51,7 +51,7 @@ body {
   border-radius: 5px;
 }
 
-.contact_conttainer {
+.contact_container {
   display: flex;
   align-items: left;
   background-color: rgb(200, 224, 235);
