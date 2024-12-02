@@ -82,6 +82,8 @@ h2{
 }
 
 #message{
+  display: block;
+  width: 80%; 
   margin: 0 auto;
 
 }
