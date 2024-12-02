@@ -66,16 +66,14 @@ h2 {
   font-family: Helvetica;
   text-align: center;
   margin-bottom: 20px;
+  padding: 20px;
 }
 
 label {
   display: block;
-  margin-bottom: 5px;
+  margin-top: 10px;
 }
 
-h2{
-  text-align: center;
-}
 
 #contact_form{
   text-align:center;
