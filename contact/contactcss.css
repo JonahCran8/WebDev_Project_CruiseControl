@@ -87,7 +87,129 @@ label {
 
 #contact_form {
   text-align: center;
+}body {
+  background-color: white;
 }
+
+/* Creates navigation bar with links to other pages and a logo */
+.navbar { /* Navigation bar styling */
+  display: flex;
+  align-items: center;
+  background-color: rgb(200, 224, 235);
+  justify-content: start;
+  border-radius: 5px;
+  padding: 0px 15px;
+  border: rgb(76, 87, 92) solid 2px;
+  box-shadow: 3px 3px 6px rgb(34, 39, 42);
+}
+
+.logo { /* Logo size */
+  width: 115px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.navbarlinks { /* Navigation bar links styling */
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbarlinks li {
+  margin: 0 10px;
+  border-right: 1px solid rgb(153, 172, 181);
+  padding-right: 17px;
+}
+
+.navbarlinks li:last-child {
+  border-right: none;
+  padding-right: 0;
+}
+
+.navbarlinks a {
+  color: black; /* Link color */
+  text-decoration: none;
+  padding: 5px 10px;
+  font-family: Helvetica;
+  font-size: 20px;
+}
+
+.navbarlinks a:hover {
+  background-color: rgb(180, 200, 210); /* Link hover effect */
+  border-radius: 5px;
+}
+
+.contact_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Centers the contact form and info */
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;  /* Adds space to prevent overlap with navbar */
+}
+
+.contact_container {
+  display: flex;
+  flex-direction: column;  /* Ensures form fields stack vertically */
+  align-items: center;
+  background-color: rgb(200, 224, 235);
+  border: rgb(76, 87, 92) solid 2px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 20px;  /* Space between contact form and info */
+}
+
+h2 {
+  font-family: Helvetica;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+#contact_form {
+  text-align: center;
+}
+
+#message {
+  display: block;
+  width: 80%; 
+  margin: 0 auto;
+}
+
+button {
+  text-align: center;
+}
+
+label {
+  text-align: center;
+}
+
+.contact_info {
+  padding: 15px;
+  background-color: rgb(200, 224, 235);
+  border: rgb(76, 87, 92) solid 2px;
+  border-radius: 10px;
+  text-align: center;
+  width: 50%;
+  font-family: Helvetica;
+  font-size: 16px;
+  color: black;
+  box-shadow: 2px 2px 5px rgb(34, 39, 42);
+}
+
+.contact_info h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
 
 #message {
   display: block;
