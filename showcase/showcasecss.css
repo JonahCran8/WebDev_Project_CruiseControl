@@ -87,17 +87,18 @@ body {
 /* Container for the image gallery */
 .container {
   position: relative;
-  max-width: 800px; /* Set a fixed width for the container */
-  margin: auto; /* Center the container on the page */
+  width: 100%; /* Make the container extend across the full width of the screen */
+  max-width: 100vw; /* Limit the width to the full viewport width */
+  margin: auto; /* Center the container horizontally */
   overflow: hidden; /* Prevent images from overflowing the container */
-  height: 450px; /* Set a fixed height for the container */
+  height: 450px; /* Keep the fixed height */
 }
 
 /* Full-width images with number text */
 .mySlides img {
-  width: 100%; /* Make the images fit within the container */
-  height: 100%; /* Ensure images fill the height of the container */
-  object-fit: cover; /* Crop the image to fill the container while maintaining aspect ratio */
+  width: 100%; /* Make the images fit the full width of the container */
+  height: 100%; /* Make the images fill the height of the container */
+  object-fit: cover; /* Crop the image to fit the container while maintaining aspect ratio */
 }
 
 /* Hide the images by default */
@@ -110,10 +111,10 @@ body {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%; /* Position vertically in the center of the container */
+  top: 50%; /* Center vertically in the container */
   width: auto;
   padding: 16px;
-  margin-top: -22px; /* Offset by half of the button's height to perfectly center it */
+  margin-top: -22px; /* Offset by half of the button's height to center it */
   color: white;
   font-weight: bold;
   font-size: 20px;
@@ -131,7 +132,7 @@ body {
 /* On hover, add a black background color with a little bit of transparency */
 .prev:hover,
 .next:hover {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Number text (1/3 etc) */
