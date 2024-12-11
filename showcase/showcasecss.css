@@ -92,7 +92,7 @@ body {
   max-width: 100vw;
   margin: auto;
   overflow: hidden;
-  height: 790px; /* Fixed height for the gallery */
+  height: 800px; /* Fixed height for the gallery */
   padding: 10px;
   border-radius: 5px;  /* Apply border-radius */
   border: black solid 3px; /* One border around the entire container */
