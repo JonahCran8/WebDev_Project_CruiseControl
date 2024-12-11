@@ -94,19 +94,18 @@ body {
   overflow: hidden;
   height: 450px;
   padding: 10px;
-  border-radius: 5px;  /* Added border-radius */
-  border: black solid 3px; /* Added border */
-  box-shadow: 3px 3px 6px; /* Added box-shadow */
+  border-radius: 5px;  /* Apply border-radius */
+  border: black solid 3px; /* Single border around the container */
+  box-shadow: 3px 3px 6px; /* Add box-shadow */
 }
 
 /* Full-width images with number text */
 .mySlides img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  border-radius: 5px;  /* Added border-radius */
-  border: black solid 3px; /* Added border */
-  box-shadow: 3px 3px 6px; /* Added box-shadow */
+  object-fit: contain; /* Changed to 'contain' to ensure the image is fully visible */
+  border-radius: 5px;  /* Apply border-radius */
+  box-shadow: 3px 3px 6px; /* Box-shadow for images */
 }
 
 /* Hide the images by default */
@@ -174,9 +173,8 @@ body {
   opacity: 0.6;
   width: 100%;
   cursor: pointer;
-  border-radius: 5px;  /* Added border-radius */
-  border: black solid 3px; /* Added border */
-  box-shadow: 3px 3px 6px; /* Added box-shadow */
+  border-radius: 5px;  /* Apply border-radius */
+  box-shadow: 3px 3px 6px; /* Box-shadow for thumbnails */
 }
 
 .demo:hover,
