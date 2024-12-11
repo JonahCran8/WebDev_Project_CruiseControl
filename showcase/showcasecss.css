@@ -85,9 +85,18 @@ body {
   box-sizing: border-box;
 }
 
-/* Position the image container (needed to position the left and right arrows) */
+/* Container for the image gallery */
 .container {
   position: relative;
+  max-width: 800px; /* Set a fixed width for the container */
+  margin: auto; /* Center the container on the page */
+  overflow: hidden; /* Prevent images from overflowing the container */
+}
+
+/* Full-width images with number text */
+.mySlides img {
+  width: 100%; /* Make the images fit within the container */
+  height: auto; /* Maintain the aspect ratio */
 }
 
 /* Hide the images by default */
@@ -95,20 +104,15 @@ body {
   display: none;
 }
 
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
-
 /* Next & previous buttons */
 .prev,
 .next {
   cursor: pointer;
   position: absolute;
-  top: 40%;
+  top: 50%;
   width: auto;
   padding: 16px;
-  margin-top: -50px;
+  margin-top: -22px;
   color: white;
   font-weight: bold;
   font-size: 20px;
@@ -146,24 +150,27 @@ body {
   color: white;
 }
 
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+/* Thumbnail images container */
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between thumbnails */
 }
 
-/* Six columns side by side */
+/* Thumbnail columns */
 .column {
-  float: left;
   width: 16.66%;
+  padding: 5px; /* Add padding for spacing */
 }
 
-/* Add a transparency effect for thumnbail images */
+/* Thumbnail images */
 .demo {
   opacity: 0.6;
+  width: 100%; /* Make thumbnails fit their container */
+  cursor: pointer;
 }
 
-.active,
-.demo:hover {
-  opacity: 1;
+.demo:hover,
+.active {
+  opacity: 1; /* Highlight active and hovered thumbnails */
 }
