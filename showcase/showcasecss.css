@@ -81,13 +81,13 @@ body {
 
 }
 
-div.scroll-container {
+.scroll-container {
   background-color: #ffffff;
   overflow: auto;
   white-space: nowrap;
   padding: 10px;
 }
 
-div.scroll-container img {
+.scroll-container img {
   padding: 10px;
 }
