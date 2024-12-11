@@ -88,7 +88,7 @@ body {
 /* Container for the image gallery */
 .container {
   position: relative;
-  max-width: 800px; /* Set a fixed width for the container */
+  max-width: 500px; /* Set a fixed width for the container */
   margin: auto; /* Center the container on the page */
   overflow: hidden; /* Prevent images from overflowing the container */
 }
