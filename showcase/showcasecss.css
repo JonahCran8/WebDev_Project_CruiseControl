@@ -97,6 +97,7 @@ body {
   border-radius: 5px;  /* Apply border-radius */
   border: black solid 3px; /* One border around the entire container */
   box-shadow: 3px 3px 6px; /* Box-shadow around the container */
+  margin: 10px;
 }
 
 /* Full-width images with number text */
