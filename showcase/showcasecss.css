@@ -104,7 +104,6 @@ body {
   width: 100%;  /* Make images fit the width */
   height: 100%; /* Make images fill the container's height */
   object-fit: contain;  /* Ensure the entire image fits inside without cropping */
-  border-radius: 5px;  /* Optional: If you want rounded corners on the images */
 }
 
 /* Hide the images by default */
@@ -172,8 +171,6 @@ body {
   opacity: 0.6;
   width: 100%;
   cursor: pointer;
-  border-radius: 5px;  /* Rounded corners for thumbnails */
-  box-shadow: 3px 3px 6px; /* Box-shadow for thumbnails */
 }
 
 .demo:hover,
