@@ -20,7 +20,7 @@ body {
   margin-right: 10px;
 }
 
-.navbarlinks { /* Navigation bar links styling*/
+.navbarlinks { /* Navigation bar links styling */
   list-style: none;
   display: flex;
   margin: 0;
@@ -39,7 +39,7 @@ body {
 }
 
 .navbarlinks a {
-  color: black;  /* Link color */
+  color: black; /* Link color */
   text-decoration: none;
   padding: 5px 10px;
   font-family: Helvetica;
@@ -47,7 +47,7 @@ body {
 }
 
 .navbarlinks a:hover {
-  background-color: rgb(180, 200, 210);  /* Link hover effect */
+  background-color: rgb(180, 200, 210); /* Link hover effect */
   border-radius: 5px;
 }
 
@@ -75,23 +75,39 @@ label {
   margin-top: 10px;
 }
 
-
-#contact_form{
-  text-align:center;
+#contact_form {
+  text-align: center;
 }
 
-#message{
+#message {
   display: block;
   width: 80%; 
   margin: 0 auto;
-
 }
 
-button{
+button {
   text-align: center;
 }
 
-label{
+label {
   text-align: center;
 }
 
+.contact_info {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: rgb(200, 224, 235);
+  border: rgb(76, 87, 92) solid 2px;
+  border-radius: 10px;
+  text-align: center;
+  width: 50%;
+  font-family: Helvetica;
+  font-size: 16px;
+  color: black;
+  box-shadow: 2px 2px 5px rgb(34, 39, 42);
+}
+
+.contact_info h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
