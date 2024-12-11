@@ -92,6 +92,7 @@ body {
   margin: auto; /* Center the container horizontally */
   overflow: hidden; /* Prevent images from overflowing the container */
   height: 450px; /* Keep the fixed height */
+  padding: 10px;
 }
 
 /* Full-width images with number text */
