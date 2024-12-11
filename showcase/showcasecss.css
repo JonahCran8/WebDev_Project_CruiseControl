@@ -93,6 +93,11 @@ body {
   overflow: hidden; /* Prevent images from overflowing the container */
   height: 850px; /* Keep the fixed height */
   padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  background-size: cover;
+  border: black solid 3px;
+  box-shadow: 3px 3px 6px;
 }
 
 /* Full-width images with number text */
