@@ -80,3 +80,14 @@ body {
   text-shadow: 3px 3px 6px rgb(60, 50, 50);
 
 }
+
+.scroll-container {
+  background-color: #ffffff;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+.scroll-container img {
+  padding: 10px;
+}
