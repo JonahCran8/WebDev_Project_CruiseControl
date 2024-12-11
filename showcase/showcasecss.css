@@ -91,7 +91,7 @@ body {
   max-width: 100vw; /* Limit the width to the full viewport width */
   margin: auto; /* Center the container horizontally */
   overflow: hidden; /* Prevent images from overflowing the container */
-  height: 725px; /* Keep the fixed height */
+  height: 850px; /* Keep the fixed height */
   padding: 10px;
 }
 
