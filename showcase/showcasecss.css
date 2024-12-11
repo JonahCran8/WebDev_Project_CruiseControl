@@ -110,10 +110,10 @@ body {
 .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 50%; /* Position vertically in the center of the container */
   width: auto;
   padding: 16px;
-  margin-top: -22px;
+  margin-top: -22px; /* Offset by half of the button's height to perfectly center it */
   color: white;
   font-weight: bold;
   font-size: 20px;
@@ -128,10 +128,10 @@ body {
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+/* On hover, add a black background color with a little bit of transparency */
 .prev:hover,
 .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 /* Number text (1/3 etc) */
